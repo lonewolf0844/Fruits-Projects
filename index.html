@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css." />
+    <!-- fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <script defer src="js/bootstrap.js"></script>
+    <title></title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+					
+          <a class="navbar-brand me-5 text-black" href="#"><img src="icons/IMAGE (1).svg" alt=""></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse ms-5"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-success"
+                  aria-current="page"
+                  href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black" href="#">Shop</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link disabled">Pages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Contact Us</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <button class="btn btn-outline-info" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+		<style>
+			
+		</style>
+    <!-- SECTIONS -->
+    <section class="hero bg-light vh-100">
+      <div class="container">
+        <div class="text">
+          <h2 class="text text-success ">Made with nature</h2>
+          <h1 class="title">Welcome to the world of nature and organic.</h1>
+
+          <button type="button" class="btn btn-warning">
+            Explore Now
+            <div class="img">
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/1/1122.png"
+                alt=""
+              />
+            </div>
+          </button>
+        </div>
+      </div>
+    </section>
+		<style>
+			.hero{
+				background: url(images/bg.jpg);
+				
+				background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+
+		
+			}
+			.hero .container .text {
+				
+			padding-top: 100px;
+			}
+			.hero .container .text h2{
+				font-family: "Yellowtail";
+			}
+			.hero .container .text .title {
+			 font-size: 75px;
+			 width: 550px;
+			}
+			.hero .container .text .btn{
+         display: flex	;
+				 gap: 40px;
+				 padding: 20px 15px;
+				 border-radius: 20px;
+				 font-size: 20px;
+			}
+			.hero .container .text .btn .img{
+      width: 25px;
+			}
+			.hero .container .text .btn .img img{
+      width: 100%;
+			}
+		</style>
+
+    <!-- Blocks -->
+    <section class="blocks ">
+      <div class="container">
+        <div class="row mt-5">
+          <div class="left col-xl-6 ">
+						<div class="card ">
+							<h3 class=" p-4">Natural!!</h3>
+							<h2 class=" p-4">Get garden</h2>
+							<h2 class=" p-4">Fruits</h2>
+					</div>
+          </div>
+          <div class="right col-xl-6">
+						<div class="card ">
+            <h3 class=" p-4">Natural!!</h3>
+            <h2 class=" p-4">Get garden</h2>
+            <h2 class=" p-4">Fruits</h2>
+					</div>
+          </div>
+					<style>
+						.blocks .container .row{
+							padding-top: 140px 
+
+						}
+						.blocks .container .row .left .card{
+							background: url(images/bg-left.jpg);
+							border-radius: 30px;
+							height: 300px;
+						}
+						.blocks .container .row .left .card h3{
+							font-family: "Yellowtail";
+						}
+						.blocks .container .row .left .card h2{
+							color: #fff;
+							font-weight: 400;
+						}
+						/* right */
+						.blocks .container .row .right .card{
+							background: url(images/bg-right.jpg);
+							border-radius: 30px;
+							height: 300px;
+						}
+						.blocks .container .row .right .card h2{
+							color: #274C5B;
+						}
+						.blocks .container .row .right .card h3{
+							font-family: "Yellowtail";
+						}
+					</style>
+          
+        </div>
+      </div>
+    </section>
+
+
+		<!-- About -->
+<section class="about vh-100">
+	<div class="container">
+		<div class="row">
+			<!-- left -->
+			<div class="left col-6">
+				<img src="icons/fruits.svg" alt="">
+
+			</div>
+			<!-- right -->
+			<div class="right col-6" >
+				<div class="text">
+				<h3 class="title-1">About Us</h3>
+				<h2 class="text-1">We Believe in Organic</h2>
+				<h2 class="text-1">Foods For Strong Health</h2>
+
+				<p class="lorem">Welcome to the world of natural and organic. Here you can discover the bounty of nature. We have grown on the principles of health, and care. We aim to give our customers a healthy chemical-free meal for perfect nutrition.</p>
+			</div>
+			<div class="organic">
+				<div class="img">
+					<img src="icons/organic.svg" alt="">
+				</div>
+				<div class="text">
+					<h3 class="title">Organic Foods Only</h3>
+					<p class="desk-1">The Product that you ordered will be verified that we have or not if have we will start to move on with the next step.</p>
+				</div>
+			</div>
+			<div class="quality">
+				<div class="img">
+					<img src="icons/quality.svg" alt="">
+				</div>
+				<div class="text">
+					<h3 class="title">Quality Standards</h3>
+					<p class="desk-1">Once your product is packed it will be delivered to your nearby locality you can directly visit the to buy the product.</p>
+				</div>
+			</div>
+  
+			<button type="button" class="btn btn-warning">
+				Shop Now
+				<div class="img">
+					<img
+						src="https://cdn-icons-png.flaticon.com/512/1/1122.png"
+						alt=""
+					/>
+				</div>
+			</button>
+
+			</div>
+
+		</div>
+	</div>
+</section>
+<style>
+	.about{
+		background: #F9F8F8;
+		margin: 140px 0px;
+
+	}
+ 
+	.about .container .row .right .organic{
+		display: flex;
+		gap: 20px;
+	}
+	.about .container .row .right .quality{
+		display: flex;
+		gap: 20px;
+	}
+	.about .container .row .right .btn{
+		width: 199px;
+		height: 82px;
+		display: flex;
+		gap: 25px;
+		background: #274C5B;
+
+border-radius: 16px;
+padding: 25px 30px;
+color: #fff;
+	}
+	.about .container .row .right .btn .img{
+		width: 25px;
+	}
+	.about .container .row .right .btn .img img{
+		width: 100%;
+	}
+	.about .container .row .right .text .title-1{
+		font-family: 'Yellowtail';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 65px;
+color: #7EB693;
+	}
+	.about .container .row .right .text .text-1{
+		font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 58px;
+color: #274C5B;
+	}
+	.about .container .row .right .text .lorem{
+		margin: 22px 0px 56px;
+		font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 32px;
+/* or 180% */
+
+letter-spacing: 0.36px;
+
+color: #525C60;
+
+	}
+	
+
+	.about .container .row .organic .text .title{
+		font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 35px;
+/* identical to box height, or 140% */
+
+letter-spacing: 0.36px;
+
+color: #274C5B;
+
+	}
+	.about .container .row .organic .text .desk-1{
+		font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 32px;
+/* or 180% */
+
+letter-spacing: 0.36px;
+
+color: #525C60;
+
+	}
+	.about .container .row .quality .text .title{
+		font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 35px;
+/* identical to box height, or 140% */
+
+letter-spacing: 0.36px;
+
+color: #274C5B;
+
+	}
+	.about .container .row .quality .text .desk-1{
+		font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 32px;
+/* or 180% */
+
+letter-spacing: 0.36px;
+
+color: #525C60;
+
+	}
+	.about .container .row  .btn{
+		margin-top: 45px;
+	}
+
+</style>
+
+    <!-- card -->
+    <section class="products ">
+      <div class="container">
+				<div class="top">
+					<h3>Organic</h3>
+					<h2>Our Products</h2>
+				</div>
+        <div class="row">
+          <!-- card -->
+          <div class="col-4  ">
+            <div class="card bg-light ">
+							<h4>Vegetable</h4>
+							<div class="img">
+								<img src="icons/brokolli.svg" alt="">
+							</div>
+							<div class="bottom">
+
+								<h5 class="name">Calabrese Broccoli</h5>
+					
+								<hr>
+								<div class="cen">
+								<p class="price-no">$ 25.00 USD</p>
+								<p class="price">$ 21.00 USD</p>
+								<img src="icons/otziv.svg" alt="">
+</div>
+							</div>
+							</div>
+          </div>
+          <!-- card -->
+          <div class="col-4  ">
+            <div class="card bg-light ">
+							<h4>Vegetable</h4>
+							<div class="img">
+								<img src="icons/corn.svg" alt="">
+								
+							</div>
+							<div class="bottom">
+
+								<h5 class="name">Fresh Corn</h5>
+						
+								<hr>
+								<div class="cen">
+								<p class="price-no">$ 21.23 USD</p>
+								<p class="price">$ 18.00 USD</p>
+								<img src="icons/otziv.svg" alt="">
+</div>
+							</div>
+							</div>
+          </div>
+          <!-- card -->
+          <div class="col-4  ">
+            <div class="card bg-light ">
+							<h4>Mill</h4>
+							<div class="img">
+								<img src="icons/pistachi.svg" alt="">
+							</div>
+							<div class="bottom">
+
+								<h5 class="name">Dried Pistachio</h5>
+								
+								<hr>
+								<div class="cen">
+								<p class="price-no">$ 61.00 USD</p>
+								<p class="price">$ 48.00 USD</p>
+								<img src="icons/otziv.svg" alt="">
+</div>
+							</div>
+							</div>
+          </div>
+					
+          <!-- card -->
+          <div class="col-4 mt-5  ">
+            <div class="card bg-light ">
+							<h4>Vegetable</h4>
+							<div class="img">
+								<img src="icons/tomato.svg" alt="">
+							</div>
+							<div class="bottom">
+							<h5 class="name">Vegan Red Tomato</h5>
+						
+							<hr>
+							<div class="cen">
+							<p class="price-no">$ 14.00 USD</p>
+								<p class="price">$ 9.37 USD</p>
+								<img src="icons/otziv.svg" alt="">
+						</div>
+							</div>
+						</div>
+          </div>
+          <!-- card -->
+          <div class="col-4 mt-5  ">
+            <div class="card bg-light ">
+							<h4>Fru</h4>
+							<div class="img">
+								<img src="icons/almonds.svg" alt="">
+							</div>
+							<div class="bottom">
+
+								<h5 class="name">Organic Almonds</h5>
+							
+								<hr>
+								<div class="cen">
+								<p class="price-no">$ 21.00 USD</p>
+								<p class="price">$ 18.00 USD</p>
+								<img src="icons/otziv.svg" alt="">
+</div>
+							</div>
+							</div>
+          </div>
+          <!-- card -->
+          <div class="col-4  mt-5 ">
+            <div class="card bg-light ">
+							<h4>Mill</h4>
+							<div class="img">
+								<img src="icons/hazelnut.svg" alt="">
+							</div>
+							<div class="bottom">
+
+								<h5 class="name">Brown Hazelnut</h5>
+							
+								<hr>
+								<div class="cen">
+								<p class="price-no">$ 43.00 USD</p>
+								<p class="price">$ 34.00 USD</p>
+								<img src="icons/otziv.svg" alt="">
+</div>
+							</div>
+							</div>
+          </div>
+				</div>
+
+					<!-- style -->
+					<style>
+						.products .container .top{
+							text-align: center;
+						}
+						.products .container .top h3{
+							text-align: center;
+							font-family: 'Yellowtail';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 65px;
+color: #7EB693;
+
+						}
+						.products .container .top h2{
+							font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 58px;
+
+
+text-align: center;
+letter-spacing: 0.36px;
+text-transform: capitalize;
+
+color: #274C5B;
+						}
+						.products .container .row .col-4 .card{
+							height: 590px;
+							border-radius: 30px;
+							
+						}
+						.products .container .row .col-4 .card .img{
+							padding: 0px 30px 20px;
+						}
+						.products .container .row .col-4 .card h4{
+							width: 118px;
+							height: 35px;
+							background: #274C5B;
+border-radius: 8px;
+color: #fff;
+text-align: center;
+margin: 30px 0 0 30px;
+
+						}
+						.products .container .row .col-4 .card .bottom{
+							width: 386px;
+							height: 105px;
+							margin: 20px 30px;
+							padding-right: 30px;
+							
+
+						}
+						.products .container .row .col-4 .card .bottom .name{
+							font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 35px;
+/* identical to box height, or 160% */
+
+letter-spacing: 0.36px;
+
+color: #274C5B;
+
+						}
+						.products .container .row .col-4 .card .bottom .cen{
+							display: flex;
+							gap: 10px;
+						}
+						.products .container .row .col-4 .card .bottom .cen .price-no{
+text-decoration: line-through;
+color: #B8B8B8;
+						}
+						.products .container .row .col-4 .card .bottom .cen img{
+							margin-left: 70px;
+							margin-bottom: 10px;
+						}
+
+					</style>
+        
+      </div>
+    </section>
+
+		<section class="test vh-100">
+			<div class="container">
+					<h3 class="top">Testimonial</h3>
+					<h2 class="top-2">What Our Customer Saying?</h3>
+						<img class="ava" src="icons/ava.svg" alt="">
+						<img class="zvezd" src="icons/otziv.svg" alt="">
+						<div class="desc">
+						<p class="text">The quality of organic produce is extremely high, the service is second to none and the taste of the food	</p>
+							<p class="text-1"> takes me back to my childhood when we were growing our own.
+						</p>
+						<h4 class="name">Sara Taylor</h4>
+						<h5>Consumer</h5>
+						<br>
+					 <hr>
+
+
+					</div>
+
+					
+			</div>
+		</section>
+		    <section class="about mb-5">
+      <div class="container">
+        <div class="row">
+          <!-- card -->
+          <div class="col-3 mb-4">
+            <div class="card p-3 ">
+              <h1 class="text">100%</h1>
+              <h5 class="text">Organic</h1>
+            </div>
+          </div>
+          <!-- card -->
+          <div class="col-3 mb-4">
+            <div class="card p-3 ">
+              <h1 class="text ">285</h2>
+              <h5 class="text ">Active Product</h2>
+            </div>
+          </div>
+          <!-- card -->
+          <div class="col-3 mb-4">
+            <div class="card p-3 ">
+              <h1 class="text ">385+</h1>
+              <h5 class="text ">Organic Orchads</h5>
+            </div>
+          </div>
+          <!-- card -->
+          <div class="col-3 mb-4">
+            <div class="card p-3 ">
+              <h1 class="text">25+</h1>
+              <h5 class="text">Years of Farming</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+			<style>
+				.about {
+background: #fff;
+	
+
+				}
+				.mb-5 .container .row .col-3 .card{
+					height: 200px;
+					width: 200px;
+					border-radius: 100%;
+					border: 6px solid #7EB693;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					color: #274C5B;
+				}
+			
+			</style>
+    </section>
+		<!-- style -->
+		<style>
+			.test{
+				background: url(images/big-bg.jpg);
+	
+				background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+				
+						margin-top: 140px ;
+					
+					
+
+			}
+			.test .container .top{
+				font-family: 'Yellowtail';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 65px;
+/* identical to box height, or 180% */
+
+text-align: center;
+letter-spacing: 0.36px;
+text-transform: capitalize;
+
+color: #7EB693;
+padding-top: 140px ;
+
+			}
+			.test .container .top-2{
+				font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 58px;
+/* identical to box height, or 130% */
+
+text-align: center;
+letter-spacing: 0.36px;
+text-transform: capitalize;
+
+color: #274C5B;
+margin-bottom: 60px;
+			}
+			.test .container .ava{
+		display: block;
+		margin: 0 auto;
+
+	
+			}
+			.test .container .zvezd	{
+	
+		margin: 20px 0px 0px 605px;
+			}
+			.test .container .desc .text{
+				text-align: center;
+				margin-top: 34px;
+			}
+			.test .container .desc .text-1{
+				text-align: center;
+		
+			}
+			.test .container .desc .name{
+				font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 34px;
+/* identical to box height, or 130% */
+
+text-align: center;
+letter-spacing: 0.36px;
+
+color: #274C5B;
+
+			}
+			.test .container .desc h5{
+				font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 27px;
+/* identical to box height, or 193% */
+
+text-align: center;
+letter-spacing: 0.36px;
+
+color: #525C60;
+
+			}
+		</style>
+    <!-- Big -->
+    <section class="big vh-100 mt-5">
+      <div class="container">
+        <div class="row">
+					<div class="col-xl-6 ">
+						<div class="card bg-success">
+
+						</div>
+					</div>
+					<div class="col-xl-6">
+					<div class="card">
+						<div class="row">
+							<div class="col-6">
+								<div class="card"></div>
+							</div>
+							<div class="col-6">
+								<div class="card"></div>
+							</div>
+							<div class="col-6">
+								<div class="card"></div>
+							</div>
+							<div class="col-6">
+								<div class="card"></div>
+							</div>
+						</div>
+						</div>
+					</div>
+					</div>
+				</div>
+      </div>
+    </section>
+		<!-- styles -->
+		<style>
+			.big .container .row .col-xl-6 .card{
+				height: 600px;
+				border-radius: 30px;
+			}
+			.big .container .row .col-xl-6 .card .row .card{
+				height: 300px;
+			}
+		</style>
+
+    <br /><br /><br />
+
+
+    <section class="words ">
+      <div class="container">
+        <div class="row">
+          <!-- card -->
+          <div class="left col-3 mb-4">
+            <div class="p-3 border-right">
+              <h2 class="Title text-end">Hello world</h2>
+              <p class="text-end">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+                iusto magnam et voluptatibus? Fugit explicabo veniam, totam
+                itaque ea ut alias! Sunt ab perferendis dicta.
+              </p>
+            </div>
+          </div>
+          <!-- card -->
+          <div class="col-6 mb-4">
+            <div class="p-3">
+              <h2 class="Title text-center">Center text</h2>
+              <p class="text-center">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor
+                quam, cum reprehenderit cupiditate et doloribus magnam molestias
+                sed, qui expedita, alias fugiat neque blanditiis necessitatibus
+                quaerat laborum illum deserunt non quia cumque unde harum. Odit
+                sequi dolorem inventore, nisi sunt provident magnam id assumenda
+                corporis iure, eveniet necessitatibus a officia.
+              </p>
+            </div>
+          </div>
+          <!-- card -->
+          <div class="right col-3 mb-4">
+            <div class="p-3">
+              <h2 class="Title text-start">Hello world</h2>
+              <p class="text-start">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+                iusto magnam et voluptatibus? Fugit explicabo veniam, totam
+                itaque ea ut alias! Sunt ab perferendis dicta.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+		<style>
+			.words .container .row .left{
+				border-right: 1px solid #000;
+			}
+			.words .container .row .right{
+				border-left: 1px solid #000;
+			}
+		</style>
+  </body>
+</html>
+
